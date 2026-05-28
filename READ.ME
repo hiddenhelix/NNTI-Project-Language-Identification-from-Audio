@@ -1,0 +1,31 @@
+Run on Google Colab
+
+Step 1 — Convert to notebook 
+The script uses #%% cell markers. Convert it to ipynb:
+""bash""
+pip install jupytext
+jupytext --to notebook train_model.py -o train_model.ipynb
+ 
+ 
+Step 2 — Upload the script
+Upload train_model_final.ipynb to your Colab session. 
+
+
+Step 3 — Install dependencies
+
+!pip install evaluate
+
+Rest every thing comes preinstalled there.
+
+ 
+Step 4 — Run
+train_model.ipynb
+
+
+Step 5 — Mount Google Drive (for saving result
+
+All the results will by default  get saved in wandb  portal
+
+or 
+
+We can manually save results from the colab runtime disk before the session ends.
